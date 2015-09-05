@@ -1,0 +1,22 @@
+{
+  "name": "nockblog",
+  "version": "1.0.0",
+  "description": "Some code for my Node blog on Nock",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "lab",
+    "start": "node server.js"
+  },
+  "author": "Jowanza Joseph <me@jowanza.com>",
+  "license": "MIT",
+  "dependencies": {
+    "code": "^1.5.0",
+    "hapi": "^9.1.0",
+    "lab": "^5.16.0",
+    "nock": "^2.10.0",
+    "request": "^2.61.0"
+  }
+}
